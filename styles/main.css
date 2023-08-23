@@ -1,0 +1,160 @@
+@import 'fonts.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 20px 0;
+}
+
+header .container .nav .item a {
+    color: #3A3838;
+}
+
+.item a:hover {
+    color: #EF4423;
+}
+
+.items {
+    display: flex;
+    column-gap: 15px;
+    font-size: 18px;
+}
+
+.header__main {
+    background: url(../images/header-img.png) no-repeat center /cover;
+    min-height: 272px;
+}
+
+section.news {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+}
+
+.card {
+    color: #fff;
+    width: 25%;
+}
+
+section.news .card:nth-of-type(2) .card__img {
+    padding-top: 20px;
+}
+
+
+.card__title {
+    padding: 15px 15px 8px 15px;
+    font-size: 19px;
+}
+
+.card__txt {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+section.news .card:nth-of-type(1) {
+    background: #B71C1C;
+}
+
+section.news .card:nth-of-type(2) {
+    background: #6A1B9A;
+}
+
+section.news .card:nth-of-type(3) {
+    background: #303F9F;
+}
+
+section.news .card:nth-of-type(4) {
+    background: #00695C;
+}
+
+.new__title {
+    text-align: center;
+    padding: 40px 0;
+    color: #3A3838;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.right__title {
+    color: #3A3838;
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+.right__txt {
+    padding-top: 30px;
+    color: #686868;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.blocks {
+    display: flex;
+    column-gap: 30px;
+}
+
+footer{
+    margin-top: 50px;
+    padding-left: 15px;
+    background: #3A3838;
+}
+
+.footer__logo{
+    padding: 28px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__title{
+    color: #fff;
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items2{
+    display: flex;
+    color: #fff;
+    column-gap: 15px;
+}
+
+.item2{
+    color: #fff;
+    text-decoration: none;
+}
+
+.txt{
+    color: #fff;
+}
